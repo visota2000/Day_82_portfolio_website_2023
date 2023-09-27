@@ -11,7 +11,7 @@
 
 
 from flask import Flask, render_template, redirect, url_for, flash, abort, request
-from flask_bootstrap import Bootstrap4 #Возможно заменить на Бутстрап 5
+from flask_bootstrap import Bootstrap4
 from flask_ckeditor import CKEditor
 from datetime import date
 from functools import wraps
