@@ -46,7 +46,7 @@ app.config['SECRET_KEY'] = os.environ.get("FLASK_KEY")
 
 app.app_context().push()
 ckeditor = CKEditor(app)
-bootstrap=Bootstrap4(app) #Возможно заменить на Бутстрап 5
+bootstrap=Bootstrap4(app)
 gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=False, force_lower=False, use_ssl=False, base_url=None)
 
 class ContactForm(FlaskForm):
