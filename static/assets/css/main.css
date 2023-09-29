@@ -132,11 +132,12 @@ a.project {
     text-decoration: none !important;
     font-size: 1rem !important;
     position: relative !important;
+    letter-spacing: 0.3em;
 }
 
 .stack-project {
-    color: #314744 !important;
-    font-size: 2vh !important;
+    color: #293735 !important;
+    font-size: 2.5vh !important;
 }
 
 
@@ -198,7 +199,7 @@ a.project:hover {
 		}
 
 	strong, b {
-		color: #313f47; /* иссине-графитово-серый*/
+		color: #293735; /* иссине-графитово-серый*/
 	}
 
 	em, i {
@@ -210,7 +211,7 @@ a.project:hover {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #313f47;
+		color: #293735;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
 	}
@@ -292,7 +293,7 @@ a.project:hover {
 			}
 
 	label {
-		color: #313f47;
+		color: #293735;
 		display: block;
 		font-size: 0.9em;
 		margin: 0 0 0.75em 0;
@@ -573,7 +574,7 @@ a.project:hover {
 					}
 
 					ul.icons li a:before {
-						color: #313f47;
+						color: #293735;
 						/*text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;*/
 					}
 
@@ -960,7 +961,7 @@ padding-right: 1em;
 				display: inline-block;
 				margin: 0 0 0 0.45em;
 				padding: 0 0 0 0.85em;
-				border-left: solid 1px #313f47;
+				border-left: solid 1px #293735;
 				line-height: 1;
 			}
 
@@ -1059,7 +1060,7 @@ padding-right: 1em;
   /*border-bottom: 1px solid #e9ecef;*/
   /*background-color: white;*/
   font-weight: 400;
-  font-color: #313f47;
+  font-color: #293735;
   font-size: 1em;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -1084,7 +1085,7 @@ padding-right: 1em;
   transition: box-shadow 0.15s ease-in-out;
   background: /*#c8cccf;*/ rgba(255,255,255,.3);
   opacity: 0.95;
-  color: #313f47 !important;
+  color: #293735 !important;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -1112,7 +1113,7 @@ ul.navbar-nav a:hover {
   font-weight: 400; /*800;*/
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #313f47;
+  color: #293735;
 }
 
 @media only screen and (min-width: 992px) {
@@ -1131,7 +1132,7 @@ ul.navbar-nav a:hover {
   }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
-    color: #313f47;
+    color: #293735;
   }
   #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
     color:#e63e62!important;
@@ -1155,13 +1156,13 @@ ul.navbar-nav a:hover {
      background-color: transparent;
   }
   #mainNav.is-fixed .navbar-brand {
-    color: #ffffff; /*#313f47; /*темно-серый*/
+    color: #ffffff; /*#293735; /*темно-серый*/
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
     color:#e63e62!important;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
-    color: #313f47; /*темно-серый*/
+    color: #293735; /*темно-серый*/
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
     color:#e63e62!important;
