@@ -141,7 +141,7 @@ a.project {
 
 
 a.project:hover {
-    color: #f9d1b5 !important;
+    color: #0b5ed7!important;
     text-decoration: none;
     /* Transition for smooth effect */
     transition: color 0.3s ease-in-out;
@@ -182,7 +182,7 @@ a.project:hover {
 		-webkit-transition: color 0.2s ease, border-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-color 0.2s ease;
 		transition: color 0.2s ease, border-color 0.2s ease;
-		color: #e63e62; /* пыльная фуксия */
+		color: #e63e62;
 		text-decoration: none;
 	}
 
@@ -194,7 +194,7 @@ a.project:hover {
 		}
 
 		a:hover {
-			color: #f9d1b5; /* лососево-розоватый*/
+			color: #0b5ed7; 
 		}
 
 	strong, b {
@@ -578,7 +578,7 @@ a.project:hover {
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #f9d1b5, -1.25px 0px 0px #f9d1b5, 0px 1.25px 0px #f9d1b5, 0px -1.25px 0px #f9d1b5;
+						text-shadow: 1.25px 0px 0px #e63e62, -1.25px 0px 0px #e63e62, 0px 1.25px 0px #e63e62, 0px -1.25px 0px #e63e62;
 					}
 
 					ul.icons li a:before {
@@ -594,7 +594,7 @@ a.project:hover {
 					}
 
 					ul.icons li a:hover {
-						border-color: #f9d1b5; /* лососево-розовый*/
+						border-color: #e63e62; /* лососево-розовый*/
 					}
 
 			@media screen and (max-width: 480px) {
@@ -653,14 +653,15 @@ a.project:hover {
 		height: 2.75em;
 		line-height: 2.75em;
 		padding: 0 1.5em;
-		background-color: transparent;
+		background-color: #e63e62;
 		border-radius: 4px;
 		border: solid 1px #c8cccf;
-		color: #084c4f !important;
+		color: #c8cccf !important;
 		cursor: pointer;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin: 30px;
 	}
 
 		input[type="submit"]:hover,
@@ -668,8 +669,10 @@ a.project:hover {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color:#e63e62!important;
+			color:#c8cccf !important;
 		}
+
+}
 
 		input[type="submit"].icon,
 		input[type="reset"].icon,
